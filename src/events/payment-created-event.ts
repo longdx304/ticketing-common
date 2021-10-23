@@ -1,8 +1,8 @@
-import { Subjects } from '..';
+import { Subjects } from './subjects';
 
 export interface PaymentCreatedEvent {
   subject: Subjects.PaymentCreated;
-  dat: {
+  data: {
     id: string;
     orderId: string;
     stripeId: string;
